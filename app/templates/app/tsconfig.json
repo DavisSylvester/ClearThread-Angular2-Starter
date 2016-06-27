@@ -1,0 +1,28 @@
+{
+    "name": "Davis Sylvester",
+    "compilerOptions": {
+        "target": "es6",
+        "declaration": true,
+        "module": "system",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": false,
+        "noImplicitAny": false,
+        "allowJs": false,
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "preserveConstEnums": true,
+        "noImplicitUseStrict": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true
+        
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.d.ts",
+        "typings"
+    
+    ]
+}

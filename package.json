@@ -1,0 +1,24 @@
+{
+  "name": "generator-clearthread-ag2",
+  "version": "1.0.0",
+  "description": "ClearThread Angular 2 Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "npm update"
+  },
+  "keywords": [
+    "ClearThread",
+    "Angular 2",
+    "Typescript",
+    "Survey"
+  ],
+  "author": "Davis Sylvester <Davis@SylvesterLLC.com> (Http://davissylvester.com)",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^0.23.4",
+    "yosay": "^1.2.0"
+  }
+}
