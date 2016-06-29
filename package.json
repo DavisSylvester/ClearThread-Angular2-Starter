@@ -20,5 +20,8 @@
     "mkdirp": "^0.5.1",
     "yeoman-generator": "^0.23.4",
     "yosay": "^1.2.0"
+  },
+  "devDependencies": {
+    "mkdirp": "^0.5.1"
   }
 }

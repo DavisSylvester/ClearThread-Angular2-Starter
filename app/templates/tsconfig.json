@@ -1,13 +1,13 @@
 {
     "name": "Davis Sylvester",
     "compilerOptions": {
-        "target": "es6",
+        "target": "es2015",
         "declaration": true,
         "module": "system",
         "moduleResolution": "node",
         "sourceMap": true,
         "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
+        "experimentalDecorators": true,        
         "removeComments": false,
         "noImplicitAny": false,
         "allowJs": false,
@@ -15,14 +15,16 @@
         "allowUnusedLabels": false,
         "preserveConstEnums": true,
         "noImplicitUseStrict": false,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true
+        "noExternalResolve": true
         
     },
     "exclude": [
         "node_modules",
         "**/*.d.ts",
-        "typings"
+        "typings",
+        "gulpfile.ts",
+        "gulpconfig.ts"
+
     
     ]
 }
