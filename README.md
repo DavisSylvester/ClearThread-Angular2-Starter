@@ -38,11 +38,11 @@
 ## How to Use the Generator
 
 1.  Create a Directory to hold your new Project
-> mkdir project\samples\ct-app1
-> cd project\samples\ct-app1
+> *  mkdir project\samples\ct-app1
+> *  cd project\samples\ct-app1
 
 2. Scaffold the Project 
-> yo clearthread-ag2
-> Select the Dependencies
-> npm setup
->
+> *  yo clearthread-ag2
+> *  Select the Dependencies
+> *  npm setup
+> *  gulp
