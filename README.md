@@ -31,7 +31,7 @@
 > npm install 
 
 ### 4.  Install the Generator Locally
-****This allows you to use without going to a Public Repository to download
+* This allows you to use without going to a Public Repository to download
 > npm link
 
 
