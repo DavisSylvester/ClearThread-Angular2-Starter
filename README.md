@@ -4,10 +4,10 @@
 ### Prerequisite
 
 1. [Node v5 or Later](https://nodejs.org/en/)
-2. NPM * will be installed with Node
+2. NPM *will be installed with Node
 3. Yeoman
-..* npm install -g Yo
-..* npm install -g Gulp
+##### npm install -g Yo
+##### npm install -g Gulp
 4. [Git] (https://git-scm.com/download)
 
 
