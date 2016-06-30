@@ -24,8 +24,8 @@
 * [ClearThread Scaffolding Generator](https://bitbucket.org/dsylvester/angular2starter)
 > *  git clone https://bitbucket.org/dsylvester/angular2starter generator-clearthread-ag2
 > *   or 
-  *  download and Unzip to the generator-clearthread-ag2 folder 
-> cd generator-clearthread-ag2
+> *  download and Unzip to the generator-clearthread-ag2 folder 
+> *  cd generator-clearthread-ag2
 
 ### 3. Install NPM Packages for Generators
 > npm install 
