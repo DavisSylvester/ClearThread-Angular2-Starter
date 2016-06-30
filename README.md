@@ -3,10 +3,12 @@
 
 ### Prerequisite
 
-1. [Node](https://nodejs.org/en/)
+1. [Node v5 or Later](https://nodejs.org/en/)
 2. NPM * will be installed with Node
 3. Yeoman
-3.1 > npm install -g Yo
+..* npm install -g Yo
+..* npm install -g Gulp
+4. [Git] (https://git-scm.com/download)
 
 
 ### How to Use
@@ -21,7 +23,7 @@
 
 ### 2. Clone the Clearthread Generator from Bitbucket
 * [ClearThread Scaffolding Generator](https://bitbucket.org/dsylvester/angular2starter)
-> git clone [angular2starter](https://bitbucket.org/dsylvester/angular2starter) generator-clearthread-ag2
+> git clone https://bitbucket.org/dsylvester/angular2starter generator-clearthread-ag2 or download and Unzip to the generator-clearthread-ag2 folder 
 > cd generator-clearthread-ag2
 
 ### 3. Install NPM Packages for Generators
@@ -41,6 +43,8 @@
 2. Scaffold the Project 
 > yo clearthread-ag2
 > Select the Dependencies
+> npm setup
+>
 
 
 

@@ -6,7 +6,7 @@ import { DashboardComponent } from "../../Dashboard/Components/dashboardcomponen
 
 
 export const NavigationRoutes: RouterConfig = [
-  { path: "", component: CoreComponent },
+  { path: "", component: DashboardComponent },
   { path: "dashboard", component: DashboardComponent }
 
 ];
