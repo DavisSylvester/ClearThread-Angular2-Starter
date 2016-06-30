@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NgForm, FORM_DIRECTIVES } from '@angular/common';
+import { NgForm, FORM_DIRECTIVES, Location } from '@angular/common';
 import { Observable } from 'rxjs/Rx';
 import { Router } from '@angular/router';
 
@@ -22,7 +22,7 @@ export class DashboardComponent implements OnInit  {
      public Title: string = "DASHBOARD MAIN MENU";
 
 
-     constructor(private _router: Router){
+     constructor(private _router: Router, private _location: Location){
          
 
 
