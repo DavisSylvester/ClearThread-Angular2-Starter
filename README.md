@@ -23,7 +23,7 @@
 ### 2. Clone the Clearthread Generator from Bitbucket
 * [ClearThread Scaffolding Generator](https://bitbucket.org/dsylvester/angular2starter)
 > *  git clone https://bitbucket.org/dsylvester/angular2starter generator-clearthread-ag2
-  or 
+> *   or 
   *  download and Unzip to the generator-clearthread-ag2 folder 
 > cd generator-clearthread-ag2
 
