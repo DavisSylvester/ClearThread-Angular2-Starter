@@ -8,7 +8,6 @@ let webserver = require("gulp-webserver");
 let inject = require("gulp-inject");
 let imagemin = require("gulp-imagemin");
 let pngquant = require("imagemin-pngquant");
-let babel = require("gulp-babel");
 let typescript = require("typescript");
 let uglify = require("gulp-uglify");
 let ts = require("gulp-typescript");
