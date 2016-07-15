@@ -142,6 +142,7 @@ let UTILS_DIRECTORY = `${ANGULAR_TYPESCRIPT_FOLDER}\\Utils`;
 
 let UTILS_FILES = [
     `${UTILS_DIRECTORY}\\Dictionary.ts`    
+    `${UTILS_DIRECTORY}\\DictionaryItem.ts`    
  ];
 
 let Utilities = {
