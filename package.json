@@ -1,17 +1,22 @@
 {
   "name": "generator-clearthread-ag2",
   "version": "1.0.0",
-  "description": "ClearThread Angular 2 Template",
+  "description": "ClearThread Angular 2 Template!  Angular 2 Generator using RC5.  With options for Font Awesome, Material Design Lite, SlyFramework, Babel, Typescript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "update": "npm update"
   },
+  "repository": {
+    "type" : "git"
+  , "url" : "https://github.com/DavisSylvester/ClearThread-Angular2-Starter"
+  },   
   "keywords": [
     "ClearThread",
     "Angular 2",
     "Typescript",
-    "Survey"
+    "Survey",
+    "yeoman-generator"
   ],
   "author": "Davis Sylvester <Davis@SylvesterLLC.com> (Http://davissylvester.com)",
   "license": "ISC",
