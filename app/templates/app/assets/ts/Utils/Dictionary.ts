@@ -79,7 +79,7 @@ export class Dictionary<T, R>{
     }
 
     private findByItem(item: DictionaryItem<T, R>): number {
-        let index = 0;
+        let index:number = 0;
 
         this._list.forEach((x) => {
 
@@ -90,7 +90,7 @@ export class Dictionary<T, R>{
             index++;
         });
 
-        return -1;
+        return index - this._list.length + 1;
     }
 
 
