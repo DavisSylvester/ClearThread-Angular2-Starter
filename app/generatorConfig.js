@@ -152,7 +152,7 @@ let Utilities = {
 
  let VIEWS_DIRECTORY = `views`;
  let VIEWS_SHARED_DIRECTORY = `${VIEWS_DIRECTORY}\\shared`;
- let VIEWS_DASHBOARD_DIRECTORY = `${VIEWS_SHARED_DIRECTORY}\\dashboard`;
+ let VIEWS_DASHBOARD_DIRECTORY = `${VIEWS_DIRECTORY}\\dashboard`;
 
  let VIEWS_SHARED_FILES = [ 
      `${VIEWS_SHARED_DIRECTORY}\\index.html`
