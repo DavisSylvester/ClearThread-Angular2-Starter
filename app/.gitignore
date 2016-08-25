@@ -1,3 +1,5 @@
 node_modules\ 
 .suo
 typings\
+*.d.ts
+*.map
