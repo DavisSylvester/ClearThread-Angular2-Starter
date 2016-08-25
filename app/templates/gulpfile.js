@@ -63,38 +63,38 @@ gulp.task("webServerDev", function() {
         }));
 });
 
-gulp.task("typescript", function() {
+// gulp.task("typescript", function() {
 
-//     let tsProject = ts.createProject('tsconfig.json', { sortOutput: true, declaration: true });
-//     var tsResult = tsProject.src()
-//     .pipe(sourcemaps.init())
-//     .pipe(ts(tsProject)
-//     .pipe(sourcemaps.write('.')));
+// //     let tsProject = ts.createProject('tsconfig.json', { sortOutput: true, declaration: true });
+// //     var tsResult = tsProject.src()
+// //     .pipe(sourcemaps.init())
+// //     .pipe(ts(tsProject)
+// //     .pipe(sourcemaps.write('.')));
 
-//     return tsResult.pipe(gulp.dest('app/assets/js/'));
+// //     return tsResult.pipe(gulp.dest('app/assets/js/'));
 
-        let sources = gulp.src(gc.TypeScriptFiles)
-            .pipe(plumber({}))
-            .pipe(sourcemaps.init())
-            .pipe(ts(tsconfig.compilerOptions));         
+//         let sources = gulp.src(gc.TypeScriptFiles)
+//             .pipe(plumber({}))
+//             .pipe(sourcemaps.init())
+//             .pipe(ts(tsconfig.compilerOptions));         
             
 
-       sources.dts
-        .pipe(gulp.dest(gc.TypeScriptCompiledFiles));
+//        sources.dts
+//         .pipe(gulp.dest(gc.TypeScriptCompiledFiles));
                 
-        // DO NOT CHANGE ORDER OR SOURCE MAPS WILL 
-        // WILL NOT BE GENERATED
-       sources.js       
-        .pipe(sourcemaps.write('.'))
-        .pipe(gulp.dest(gc.TypeScriptCompiledFiles));        
+//         // DO NOT CHANGE ORDER OR SOURCE MAPS WILL 
+//         // WILL NOT BE GENERATED
+//        sources.js       
+//         .pipe(sourcemaps.write('.'))
+//         .pipe(gulp.dest(gc.TypeScriptCompiledFiles));        
 
- });
+//  });
 
 gulp.task("watch", function() {
 
     gulp.watch([gc.All_LESS_File, gc.HtmlFiles], ["less"]);
-    gulp.watch([gc.TypeScriptFiles], ["typescript"]);
+    // gulp.watch([gc.TypeScriptFiles], ["typescript"]);
     
 });
 
-gulp.task("default", ["webServerDev", "watch", "less", "typescript"]); 
+gulp.task("default", ["webServerDev", "watch", "less"]); 

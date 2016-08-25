@@ -5,7 +5,7 @@ let chalk = require('chalk');
 let config = require('./config.js');
 let genConfig = require('./generatorConfig.js');
 
-let angular2_version = "RC3";
+let angular2_version = "RC5";
 
 module.exports = generators.Base.extend({
 
