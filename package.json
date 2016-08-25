@@ -1,6 +1,6 @@
 {
   "name": "generator-clearthread-ag2",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ClearThread Angular 2 Template!  Angular 2 Generator using RC5.  With options for Font Awesome, Material Design Lite, SlyFramework, Babel, Typescript",
   "main": "index.js",
   "scripts": {
